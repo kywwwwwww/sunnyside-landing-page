@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,500&family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js"></script>
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logomoba"><img src="./images/logo.svg" alt="" /></div>
+      <nav id="nav-bar">
+        <div class="logodesk"><img src="./images/logo.svg" alt="" /></div>
+        <ul>
+          <div class="triangulo"></div>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burguer" id="burguer" onclick="burguer();">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="sair" id="sair" onclick="sair();">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+      </div>
+    </header>
+
+    <main class="content-main">
+      <div class="first-tlk">
+        <h1>WE ARE CREATIVES</h1>
+        <img src="./images/icon-arrow-down.svg" width="40vh" alt="" />
+      </div>
+      <div class="second-tlk">
+        <div class="group1">
+          <div class="second-one-tlk">
+            <h2>Transform Your Brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your through compelling visuals taht do
+              most of the marketing for you.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="second-two-tlk"></div>
+        </div>
+
+        <div class="group2">
+          <div class="second-three-tlk"></div>
+          <div class="second-fourth-tlk">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we'll build and
+              extend yout brand in digital places.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="group3">
+          <div class="second-fifith-tlk">
+            <h3>Graphic Design</h3>
+            <p>
+              Great Design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients
+              attention.
+            </p>
+          </div>
+          <div class="second-sixth-tlk">
+            <h3>Photography</h3>
+            <p>
+              Increase your credibility by getting the most stunning
+              high-quality that improve your business image.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="three-tlk">
+        <h2>Client Testimonials</h2>
+        <div class="coment">
+          <div class="perfil">
+            <img
+              src="./images/image-emily.jpg"
+              style="border-radius: 50%"
+              alt=""
+            />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+
+            <legend>
+              <h3>Emily R.</h3>
+              <p>Marketing Director</p>
+            </legend>
+          </div>
+          <div class="perfil">
+            <img
+              src="./images/image-thomas.jpg"
+              style="border-radius: 50%"
+              alt=""
+            />
+            <p>
+              Sunnyside's enthusiasm coupled with their keen interest in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+
+            <legend>
+              <h3>Thomas S.</h3>
+              <p>Chief Operating Officer</p>
+            </legend>
+          </div>
+          <div class="perfil">
+            <img
+              src="./images/image-jennie.jpg"
+              style="border-radius: 50%"
+              alt=""
+            />
+            <p>
+              Incredible end result! Our sales increased over 40% when we worked
+              with Sunnyside. Highly recommended!
+            </p>
+
+            <legend>
+              <h3>Jennie R.</h3>
+              <p>Business Owner</p>
+            </legend>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="images-footer">
+      <img
+        class="img1"
+        src="./images/desktop/image-gallery-milkbottles.jpg"
+        alt=""
+      />
+      <img
+        class="img2"
+        src="./images/desktop/image-gallery-orange.jpg"
+        alt=""
+      />
+
+      <img class="img3" src="./images/desktop/image-gallery-cone.jpg" alt="" />
+      <img
+        class="img4"
+        src="./images/desktop/image-gallery-sugarcubes.jpg"
+        alt=""
+      />
+    </div>
+
+    <footer>
+      <h2>sunnyside</h2>
+      <div class="links">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+      </div>
+      <div class="social">
+        <img src="./images/icon-facebook.svg" width="20px" alt="" />
+        <img src="./images/icon-instagram.svg" width="20px" alt="" />
+        <img src="./images/icon-twitter.svg" width="20px" alt="" />
+        <img src="./images/icon-pinterest.svg" width="20px" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
